@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "vijay84datafactory"
+		},
+		"AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
+		"Eventtrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/32f569c4-e36c-46bb-ab85-12969184c723/resourceGroups/VijayResource/providers/Microsoft.Storage/storageAccounts/vijaystorage84"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://file-examples.com.github.io/uploads/2017/02/file_example_XLSX_5000.xlsx"
+		}
+	}
+}
